@@ -575,13 +575,14 @@
 								is on the house!
 							</p>
 
-							<form class="cta-form" action="#">
+							<form class="cta-form" name="sign-up" netlify>
 								<div>
 									<label for="full-name">Full Name</label>
 									<input
 										id="full-name"
 										type="text"
 										placeholder="Abhishek Kumar"
+										name="Full-name"
 										required
 									/>
 								</div>
@@ -592,6 +593,7 @@
 										id="email"
 										type="email"
 										placeholder="xyz@gmail.com"
+										name="email"
 										required
 									/>
 								</div>
@@ -600,7 +602,7 @@
 									<label for="Select-where"
 										>How did you get to know about us
 									</label>
-									<select id="Select-where" required>
+									<select id="Select-where" name="Select-where" required>
 										<option value="">Please choose one option:</option>
 										<option value="friends">Friends and family</option>
 										<option value="youtube">YouTube Video</option>
